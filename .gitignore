@@ -33,6 +33,8 @@ modules.builtin
 *.patch
 *.gcno
 build.sh
+zImage
+dtb
 
 #
 # Top-level generic files
@@ -46,6 +48,7 @@ build.sh
 /Module.markers
 /Module.symvers
 /output
+
 
 #
 # Debian directory (make deb-pkg)
